@@ -1,6 +1,8 @@
-a=int(input())
-if a>10:
-    print("fvfdiv")
+
+a=input()
+b=a.upper()
+c=b.replace(" ","")
+if c[:]==c[::-1]:
+    print('palindrom')
 else:
-    print("jbvvwie")
-print("sdcvwhv")
+    print("no")
